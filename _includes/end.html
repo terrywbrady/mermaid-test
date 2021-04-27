@@ -1,12 +1,16 @@
 </div>
 <script type="text/javascript">
   $(document).ready(function(){
+    loadDiagram("one.mmd");
+  });
+  
+  function loadDiagram(fname) {
     $.get({
-      url: "data/one.mmd",
+      url: "data/" + fname,
       success: function(data) {
         $(".mermaid").text(data);
         mermaid.initialize({startOnLoad:true});
       }
     });
-  });
+  }
 </script>
