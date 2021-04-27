@@ -2,7 +2,7 @@
 <script type="text/javascript">
   $(document).ready(function(){
     loadDiagram("one.mmd");
-    setTimeout(3000, function(){loadDiagram("two.mmd")});
+    setTimeout(function(){loadDiagram("two.mmd")}, 3000);
   });
   
   function loadDiagram(fname) {
