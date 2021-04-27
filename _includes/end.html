@@ -5,6 +5,7 @@
       url: "data/one.mmd",
       success: function(data) {
         $(".mermaid").text(data);
+        mermaid.initialize({startOnLoad:true});
       }
     });
   });
