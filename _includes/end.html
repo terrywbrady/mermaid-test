@@ -10,7 +10,7 @@
       url: "data/" + fname,
       success: function(data) {
         $(".mermaid").text(data);
-        setTimeout(function(){mermaid.initialize({});}, 500);
+        mermaid.init(undefined, document.querySelectorAll(".mermaid"));
       }
     });
   }
