@@ -1,3 +1,3 @@
-{% include nav.html %}
+{% include mermaid.html %}
 
 # mermaid-test
