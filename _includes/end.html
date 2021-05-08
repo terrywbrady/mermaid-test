@@ -1,19 +1,2 @@
 </div>
-<script type="text/javascript">
-  $(document).ready(function(){
-    loadDiagram("two.mmd");
-    setTimeout(function(){loadDiagram("one.mmd")}, 3000);
-  });
-  
-  function loadDiagram(fname) {
-    $.get({
-      url: "data/" + fname,
-      success: function(data) {
-        $(".mermaid").text(data);
-        console.log($(".mermaid").text());
-        console.log(mermaid);
-        mermaid.init(undefined, $(".mermaid"));
-      }
-    });
-  }
-</script>
+
