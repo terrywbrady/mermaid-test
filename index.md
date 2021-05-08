@@ -1,9 +1,8 @@
 ---
-title: "two"
-nextpage: index
+title: "start"
+nextpage: one
 ---
+
 {% include mermaid.html %}
 {% include start.html %}
-  style A fill:yellow
-  style B fill:pink
 {% include end.html %}

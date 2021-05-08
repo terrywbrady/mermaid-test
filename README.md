@@ -1,8 +1,3 @@
----
-title: "start"
-nextpage: one
----
+# Mermaid Test from GitHub Pages
 
-{% include mermaid.html %}
-{% include start.html %}
-{% include end.html %}
+https://terrywbrady.github.io/mermaid-test/
