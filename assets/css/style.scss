@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+.main-content {
+  max-width: unset;
+}
+
+body {
+    background-color: pink;
+}
+
 #container .inner {
     width: unset !important;
 }
