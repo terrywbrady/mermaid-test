@@ -4,5 +4,5 @@ nextpage: two
 ---
 {% include mermaid.html %}
 {% include start.html %}
-  style A fill:yellow
+  style UI fill:yellow
 {% include end.html %}

@@ -4,6 +4,6 @@ nextpage: index
 ---
 {% include mermaid.html %}
 {% include start.html %}
-  style A fill:yellow
-  style B fill:pink
+  style UI fill:yellow
+  style ING fill:pink
 {% include end.html %}
