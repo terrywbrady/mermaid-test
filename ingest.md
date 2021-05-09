@@ -7,5 +7,5 @@ chart: data/merritt.mmd
 {% include mermaid.html %}
 {% include start.html %}
   class ING FOCUS
-  linkStyle 4 stroke:red,stroke-width:3px
+  linkStyle 3 stroke:red,stroke-width:3px
 {% include end.html %}
