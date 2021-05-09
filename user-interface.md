@@ -2,6 +2,7 @@
 title: "Merritt User Interface"
 description: "The Merritt User Interface allows a user to browse collections and deposit new objects"
 nextpage: index
+chart: data/merritt.mmd
 ---
 {% include mermaid.html %}
 {% include start.html %}
