@@ -38,6 +38,7 @@ graph TD
     CLOUD -.-> |presigned retrieval| BROWSER
     ING -.-> |local id request| INV
     INV -.-> |retrieve manifest| ST
+    ST --> CLOUD
   end
 
   style CLOUD fill:#77913C
@@ -47,4 +48,3 @@ graph TD
   style EZID fill:cyan
   
   classDef FOCUS stroke:red,stroke-width:5px,fill:yellow
- 
