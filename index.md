@@ -1,6 +1,7 @@
 ---
-title: "start"
-nextpage: one
+title: "Core Merritt Microservices"
+description: "A tour of the services"
+nextpage: inventory-db
 ---
 
 {% include mermaid.html %}
