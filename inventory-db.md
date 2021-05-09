@@ -6,5 +6,5 @@ chart: data/merritt.mmd
 ---
 {% include mermaid.html %}
 {% include start.html %}
-  class ING FOCUS
+  class RDS FOCUS
 {% include end.html %}

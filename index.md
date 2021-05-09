@@ -7,5 +7,5 @@ chart: data/merritt.mmd
 
 {% include mermaid.html %}
 {% include start.html %}
-  class Browser FOCUS
+  class BROWSER FOCUS
 {% include end.html %}
