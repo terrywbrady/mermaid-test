@@ -4,5 +4,9 @@
 @import "{{ site.theme }}";
 
 #container .inner {
-    width: 800px !important;
+    width: 90% !important;
+}
+
+#downloads {
+    display: none;
 }
