@@ -7,5 +7,5 @@ chart: data/merritt.mmd
 {% include mermaid.html %}
 {% include start.html %}
   class ZOO FOCUS
-  linkStyle 6 stroke:red,stroke-width:3px
+  linkStyle 6 stroke:red,stroke-width:3px,stroke-dasharray: 5, 5
 {% include end.html %}
